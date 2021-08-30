@@ -4,7 +4,7 @@ import Variable from '../variables/Variable';
 import Scope from './Scope';
 
 export default class GlobalScope extends Scope {
-	parent: null;
+	parent = null;
 
 	constructor() {
 		super();
